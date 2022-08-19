@@ -1,4 +1,4 @@
-# File-Sharing-Man
+# Force Subs Bot
 
 Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link Khusus.
 Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.
@@ -25,26 +25,36 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan bot ini dengan bijak.
 - Tambahkan bot ke Group ForceSub tambahkan bot sebagai ADMIN
 
 ## 🛡 Installation
-### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://risman.vercel.app/file-deploy.html)</br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-**Tonton Video Tutorial Ini di YouTube untuk Bantuan memasang di Heroku**<br>
-<a href="https://youtu.be/O2tieQgzYZg">
-  <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
-</a><br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-### Deploy in your VPS
+
+<details>
+    <summary> <b>🔗 Deploy Force Subs Heroku </b></summary><br/>
+
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/poocong/ForceSubs"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Web%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
+
+<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=cG9vY29uZy9Gb3JjZVN1YnMgbWFzdGVy"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Bot%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
+
+</details>
+
+<details>
+    <summary> <b>🔗 Deploy Force Subs Vps </b></summary><br/>
 ````bash
-git clone https://github.com/mrismanaziz/File-Sharing-Man
-cd File-Sharing-Man
+git clone https://github.com/poocong/ForceSubs
+cd ForceSubs
 pip3 install -r requirements.txt
 cp sample_config.env config.env
 # edit config.env Anda dan isi VARS menggunakan nano config.env CTRL + S untuk menyimpan VARS Anda, 
-# gunakan CTRL + X untuk keluar dan kembali ke direktori File-Sharing-Man
+# gunakan CTRL + X untuk keluar dan kembali ke direktori ForceSubs
 bash start
 ````
+
+</details>
+
 <details>
-<summary><h3><b>🔗 Extra Custom & List Vars</b></h3></summary>
+    <summary> <b>🔗 Extra Custom & List Vars</b></summary>
 
 ### Variables
 
@@ -80,15 +90,19 @@ bash start
 
 </details>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ## 🏷 Support   
-- Follow Channel [@Lunatic0de](https://t.me/Lunatic0de) untuk info Update bot 
-- Gabung Group [@SharingUserbot](https://t.me/SharingUserbot) untuk diskusi, pelaporan bug, dan bantuan tentang File-Sharing-Man.
+- Follow Channel [@PocongProject](https://t.me/PocongProject) untuk info Update bot 
+- Gabung Group [@PocongUserbot](https://t.me/PocongUserbot) untuk diskusi, pelaporan bug, dan bantuan tentang bot Force Subs
 
 ## 👨🏻‍💻 Credits
 
 -  [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
 -  [Risman](https://github.com/mrismanaziz) for [File-Sharing-Man](https://github.com/mrismanaziz/File-Sharing-Man)
 -  Based on [CodeXBotz](https://github.com/CodeXBotz) Repo [File-Sharing-Bot](https://github.com/CodeXBotz/File-Sharing-Bot)
+-  [Poocong](https://github.com/poocong) for [ForceSubs](https://github.com/poocong/ForceSubs)
 
 ## 📑 License
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
