@@ -26,7 +26,6 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan bot ini dengan bijak.
 
 ## 🛡 Installation
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
@@ -36,20 +35,6 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan bot ini dengan bijak.
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/poocong/ForceSubs"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Web%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
 
 <p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=cG9vY29uZy9Gb3JjZVN1YnMgbWFzdGVy"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Bot%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
-
-</details>
-
-<details>
-    <summary> <b>🔗 Deploy Force Subs Vps </b></summary><br/>
-````bash
-git clone https://github.com/poocong/ForceSubs
-cd ForceSubs
-pip3 install -r requirements.txt
-cp sample_config.env config.env
-# edit config.env Anda dan isi VARS menggunakan nano config.env CTRL + S untuk menyimpan VARS Anda, 
-# gunakan CTRL + X untuk keluar dan kembali ke direktori ForceSubs
-bash start
-````
 
 </details>
 
@@ -92,6 +77,18 @@ bash start
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+* [! Deploy in ur vps]
+
+````bash
+git clone https://github.com/poocong/ForceSubs
+cd ForceSubs
+pip3 install -r requirements.txt
+cp sample_config.env config.env
+# edit config.env Anda dan isi VARS menggunakan nano config.env CTRL + S untuk menyimpan VARS Anda, 
+# gunakan CTRL + X untuk keluar dan kembali ke direktori ForceSubs
+bash start
+````
 
 ## 🏷 Support   
 - Follow Channel [@PocongProject](https://t.me/PocongProject) untuk info Update bot 
