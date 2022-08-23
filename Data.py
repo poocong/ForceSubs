@@ -24,24 +24,24 @@ class Data:
  ├ /speedtest - Untuk Mengetes kecepatan server bot
  └ /broadcast - Untuk mengirim pesan broadcast ke pengguna bot
 
-👨‍💻 Develoved by @Lunatic0de</b>
+👨‍💻 Develoved by @pocongonlen</b>
 """
 
     close = [
-        [InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")]
+        [InlineKeyboardButton("close", callback_data="close")]
     ]
 
     mbuttons = [
         [
-            InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
-            InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
+            InlineKeyboardButton("help & command", callback_data="help"),
+            InlineKeyboardButton("close", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ", callback_data="about"),
-            InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
+            InlineKeyboardButton("about me", callback_data="about"),
+            InlineKeyboardButton("close", callback_data="close")
         ],
     ]
 
@@ -51,8 +51,8 @@ class Data:
 @{} adalah Bot Telegram untuk menyimpan Postingan atau File yang dapat Diakses melalui Link Khusus.
 
  • Creator: @{}
- • Source Code: <a href='https://github.com/mrismanaziz/File-Sharing-Man'>File-Sharing-Man v4</a>
- • Owner Repo: @mrismanaziz
+ • Jasa Pembuatan Bot: <a href='https://t.me/PoocongOnlen/182'>Pocongonlenstore v4</a>
+ • Owner Repo: @kyyyynocounter
 
-👨‍💻 Develoved by @Lunatic0de</b>
+👨‍💻 Develoved by @pocongonlen</b>
 """
