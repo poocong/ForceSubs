@@ -10,8 +10,8 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Help & Command", callback_data="help"),
-                InlineKeyboardButton(text="Close", callback_data="close"),
+                InlineKeyboardButton(text="help & command", callback_data="help"),
+                InlineKeyboardButton(text="close", callback_data="close"),
             ],
         ]
         return buttons
@@ -21,8 +21,8 @@ def start_button(client):
                 InlineKeyboardButton(text="Group", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="Help & Command", callback_data="help"),
-                InlineKeyboardButton(text="Close", callback_data="close"),
+                InlineKeyboardButton(text="help & command", callback_data="help"),
+                InlineKeyboardButton(text="close", callback_data="close"),
             ],
         ]
         return buttons
@@ -32,21 +32,21 @@ def start_button(client):
                 InlineKeyboardButton(text="Channel", url=client.invitelink),
             ],
             [
-                InlineKeyboardButton(text="Help & Command", callback_data="help"),
-                InlineKeyboardButton(text="Close", callback_data="close"),
+                InlineKeyboardButton(text="help & command", callback_data="help"),
+                InlineKeyboardButton(text="close", callback_data="close"),
             ],
         ]
         return buttons
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Help & Command", callback_data="help"),
+                InlineKeyboardButton(text="help & command", callback_data="help"),
             ],
             [
                 InlineKeyboardButton(text="Channel", url=client.invitelink),
                 InlineKeyboardButton(text="Group", url=client.invitelink2),
             ],
-            [InlineKeyboardButton(text="Close", callback_data="close")],
+            [InlineKeyboardButton(text="close", callback_data="close")],
         ]
         return buttons
 
