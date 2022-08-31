@@ -21,7 +21,6 @@ class Data:
  ├ /getvar - Untuk melihat salah satu var dengan command dibot
  ├ /users - Untuk melihat statistik pengguna bot
  ├ /batch - Untuk membuat link lebih dari satu file
- ├ /speedtest - Untuk Mengetes kecepatan server bot
  └ /broadcast - Untuk mengirim pesan broadcast ke pengguna bot
 
 👨‍💻 Develoved by @pocongonlen</b>
